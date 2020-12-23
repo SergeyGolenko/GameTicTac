@@ -11,14 +11,39 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var board: UIImageView!
     
+    var activePlayer = 1
     
-    @IBOutlet weak var buttonPlayerOutlet: UIButton!
+    var gameState = [0,0,0,0,0,0,0,0,0] // 0 - Empty, 1 - Nought, 2 - Cross
+    
+    
+    
+
     
     @IBAction func buttonPlayer(_ sender: UIButton) {
-        print(sender.tag)
+        
+        
+        if gameState[(sender.tag) - 1] == 0 {
+        
+        
+        if activePlayer == 1 {
+        sender.setImage(UIImage(named: "nought"), for:[])
+            gameState[sender.tag - 1] = 1
+            activePlayer = 2
+            print(gameState)
+        } else if activePlayer == 2 {
+            sender.setImage(UIImage(named: "cross"), for:[])
+            gameState[sender.tag - 1] = 2
+            activePlayer = 1
+            print(gameState)
+            
+        }
+            
+        }
+        
     }
     
     
+    @IBOutlet weak var buttonOutlet: UIButton!
     
     
     

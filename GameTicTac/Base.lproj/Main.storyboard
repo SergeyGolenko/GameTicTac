@@ -25,7 +25,6 @@
                                     <constraint firstAttribute="width" constant="50" id="8Wi-Ic-gWe"/>
                                     <constraint firstAttribute="height" constant="50" id="dlu-xJ-Jxv"/>
                                 </constraints>
-                                <state key="normal" image="cross"/>
                                 <connections>
                                     <action selector="buttonPlayer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YYc-ff-NGl"/>
                                 </connections>
@@ -36,7 +35,6 @@
                                     <constraint firstAttribute="height" constant="50" id="8pu-2v-7sr"/>
                                     <constraint firstAttribute="width" constant="50" id="oUE-Op-6TW"/>
                                 </constraints>
-                                <state key="normal" image="cross"/>
                                 <connections>
                                     <action selector="buttonPlayer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MxK-rx-JyN"/>
                                 </connections>
@@ -47,7 +45,6 @@
                                     <constraint firstAttribute="height" constant="50" id="lFp-13-eMN"/>
                                     <constraint firstAttribute="width" constant="50" id="tsB-D1-Tl5"/>
                                 </constraints>
-                                <state key="normal" image="cross"/>
                                 <connections>
                                     <action selector="buttonPlayer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="isl-Vj-iBr"/>
                                 </connections>
@@ -58,7 +55,6 @@
                                     <constraint firstAttribute="height" constant="50" id="h0A-eJ-slM"/>
                                     <constraint firstAttribute="width" constant="50" id="zWv-Xk-NZn"/>
                                 </constraints>
-                                <state key="normal" image="cross"/>
                                 <connections>
                                     <action selector="buttonPlayer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jMY-ID-mDg"/>
                                 </connections>
@@ -69,7 +65,6 @@
                                     <constraint firstAttribute="width" constant="50" id="Jqv-kG-5H8"/>
                                     <constraint firstAttribute="height" constant="50" id="Z4H-Sw-xwd"/>
                                 </constraints>
-                                <state key="normal" image="cross"/>
                                 <connections>
                                     <action selector="buttonPlayer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ths-oP-mxy"/>
                                 </connections>
@@ -80,7 +75,6 @@
                                     <constraint firstAttribute="height" constant="50" id="Frw-ia-WqF"/>
                                     <constraint firstAttribute="width" constant="50" id="syx-PL-tnA"/>
                                 </constraints>
-                                <state key="normal" image="cross"/>
                                 <connections>
                                     <action selector="buttonPlayer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="F8C-MH-xDc"/>
                                 </connections>
@@ -91,7 +85,6 @@
                                     <constraint firstAttribute="width" constant="50" id="6cN-p5-xXG"/>
                                     <constraint firstAttribute="height" constant="50" id="ue2-xS-ARN"/>
                                 </constraints>
-                                <state key="normal" image="cross"/>
                                 <connections>
                                     <action selector="buttonPlayer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qgi-19-4QC"/>
                                 </connections>
@@ -102,7 +95,6 @@
                                     <constraint firstAttribute="height" constant="50" id="KNc-EP-XIN"/>
                                     <constraint firstAttribute="width" constant="50" id="Zkp-y2-QC0"/>
                                 </constraints>
-                                <state key="normal" image="cross"/>
                                 <connections>
                                     <action selector="buttonPlayer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KeM-Iu-rLc"/>
                                 </connections>
@@ -113,7 +105,6 @@
                                     <constraint firstAttribute="height" constant="50" id="9y9-yN-JKl"/>
                                     <constraint firstAttribute="width" constant="50" id="G98-WT-heN"/>
                                 </constraints>
-                                <state key="normal" image="cross"/>
                                 <connections>
                                     <action selector="buttonPlayer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4QB-yW-j9w"/>
                                 </connections>
@@ -148,7 +139,7 @@
                     </view>
                     <connections>
                         <outlet property="board" destination="qvT-LC-VKA" id="oNQ-F4-5Ob"/>
-                        <outlet property="buttonPlayerOutlet" destination="QP0-sP-LPs" id="VwP-7C-G1D"/>
+                        <outlet property="buttonOutlet" destination="QP0-sP-LPs" id="P0k-YX-WRa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -158,7 +149,6 @@
     </scenes>
     <resources>
         <image name="board" width="372" height="391.5"/>
-        <image name="cross" width="107" height="107"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

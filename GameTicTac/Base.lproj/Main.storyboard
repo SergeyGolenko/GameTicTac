@@ -109,10 +109,21 @@
                                     <action selector="buttonPlayer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4QB-yW-j9w"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WIN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uwd-Ep-htm">
+                                <rect key="frame" x="0.0" y="248" width="414" height="400"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="400" id="FEA-6Y-sH4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="211"/>
+                                <color key="textColor" systemColor="systemPinkColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uwd-Ep-htm" secondAttribute="trailing" id="03n-80-Sia"/>
                             <constraint firstItem="qvT-LC-VKA" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="1W1-Ug-saw"/>
                             <constraint firstItem="ljg-L0-SXV" firstAttribute="top" secondItem="kwQ-cy-zQz" secondAttribute="bottom" constant="60" id="8b2-qj-gQX"/>
                             <constraint firstItem="3qr-r4-Hfp" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="9lN-BP-Lvf"/>
@@ -125,7 +136,10 @@
                             <constraint firstItem="8gE-TO-vZc" firstAttribute="top" secondItem="3qr-r4-Hfp" secondAttribute="bottom" constant="60" id="SMl-8q-pB0"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qvT-LC-VKA" secondAttribute="trailing" id="UQz-iD-S9d"/>
                             <constraint firstItem="9Uo-sf-2cs" firstAttribute="leading" secondItem="3qr-r4-Hfp" secondAttribute="trailing" constant="60" id="XUC-Um-mBh"/>
+                            <constraint firstItem="uwd-Ep-htm" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Xfa-Z8-CzM"/>
                             <constraint firstItem="0bK-e3-utJ" firstAttribute="leading" secondItem="QP0-sP-LPs" secondAttribute="trailing" constant="60" id="ZDM-fY-6z8"/>
+                            <constraint firstItem="uwd-Ep-htm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="bdz-Tm-ZNF"/>
+                            <constraint firstItem="uwd-Ep-htm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gKy-OB-pHH"/>
                             <constraint firstItem="ljg-L0-SXV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="gxm-xe-IDL"/>
                             <constraint firstItem="9Uo-sf-2cs" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="lLT-vK-Pwz"/>
                             <constraint firstItem="0bK-e3-utJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="llz-sm-AWg"/>
@@ -140,6 +154,7 @@
                     <connections>
                         <outlet property="board" destination="qvT-LC-VKA" id="oNQ-F4-5Ob"/>
                         <outlet property="buttonOutlet" destination="QP0-sP-LPs" id="P0k-YX-WRa"/>
+                        <outlet property="winLabel" destination="uwd-Ep-htm" id="8Kv-mC-yKJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -151,6 +166,12 @@
         <image name="board" width="372" height="391.5"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

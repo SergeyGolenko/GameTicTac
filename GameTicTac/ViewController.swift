@@ -10,6 +10,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var board: UIImageView!
+    @IBOutlet weak var winLabel: UILabel!
     
     var activeGame = true
     var activePlayer = 1

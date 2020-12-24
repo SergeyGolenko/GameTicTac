@@ -12,6 +12,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var board: UIImageView!
     @IBOutlet weak var winLabel: UILabel!
     
+    @IBAction func playAgainButton(_ sender: UIButton) {
+    }
+    
     var activeGame = true
     var activePlayer = 1
     

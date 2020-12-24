@@ -119,6 +119,17 @@
                                 <color key="textColor" systemColor="systemPinkColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sp9-lI-Ixy">
+                                <rect key="frame" x="107" y="765" width="200" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="59" id="G12-1G-cKd"/>
+                                    <constraint firstAttribute="width" constant="200" id="TkK-o9-WqR"/>
+                                </constraints>
+                                <state key="normal" title="Play again"/>
+                                <connections>
+                                    <action selector="playAgainButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AGs-Mj-eQ8"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -128,6 +139,7 @@
                             <constraint firstItem="ljg-L0-SXV" firstAttribute="top" secondItem="kwQ-cy-zQz" secondAttribute="bottom" constant="60" id="8b2-qj-gQX"/>
                             <constraint firstItem="3qr-r4-Hfp" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="9lN-BP-Lvf"/>
                             <constraint firstItem="Ajv-Be-111" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CXb-l6-Ydw"/>
+                            <constraint firstItem="sp9-lI-Ixy" firstAttribute="top" secondItem="uwd-Ep-htm" secondAttribute="bottom" constant="117" id="EuC-8Z-QV6"/>
                             <constraint firstItem="Ajv-Be-111" firstAttribute="top" secondItem="9Uo-sf-2cs" secondAttribute="bottom" constant="60" id="H9I-jz-6yU"/>
                             <constraint firstItem="tO4-H9-6mt" firstAttribute="top" secondItem="ljg-L0-SXV" secondAttribute="bottom" constant="60" id="IQb-OY-ftx"/>
                             <constraint firstItem="kwQ-cy-zQz" firstAttribute="leading" secondItem="0bK-e3-utJ" secondAttribute="trailing" constant="60" id="Icp-jk-D95"/>
@@ -139,6 +151,7 @@
                             <constraint firstItem="uwd-Ep-htm" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Xfa-Z8-CzM"/>
                             <constraint firstItem="0bK-e3-utJ" firstAttribute="leading" secondItem="QP0-sP-LPs" secondAttribute="trailing" constant="60" id="ZDM-fY-6z8"/>
                             <constraint firstItem="uwd-Ep-htm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="bdz-Tm-ZNF"/>
+                            <constraint firstItem="sp9-lI-Ixy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="c5P-ae-yAN"/>
                             <constraint firstItem="uwd-Ep-htm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gKy-OB-pHH"/>
                             <constraint firstItem="ljg-L0-SXV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="gxm-xe-IDL"/>
                             <constraint firstItem="9Uo-sf-2cs" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="lLT-vK-Pwz"/>
